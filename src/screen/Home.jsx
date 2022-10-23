@@ -54,9 +54,7 @@ const Home = ({ navigation }) => {
             <View style={styles.fieldContainer}>
               <Input
                 type="text"
-                // ref={arrivalRef}
                 value={departure}
-                // onChange={e => setDeparture(e.target.value)}
                 onChangeText={setDeparture}
                 placeholder="Masukan Lokasi Keberangkatan"
                 label="Lokasi Keberangkatan"
@@ -65,7 +63,7 @@ const Home = ({ navigation }) => {
                   <FontAwesome
                     name="plane-departure"
                     size={20}
-                    color="#88b454"
+                    color="#6f00ff"
                   />
                 }
                 leftIconContainerStyle={{
@@ -75,15 +73,13 @@ const Home = ({ navigation }) => {
             </View>
             <View style={styles.fieldContainer}>
               <Input
-                // ref={arrivalRef}
                 value={arrival}
-                // onChange={e => setArrival(e.target.value)}
                 onChangeText={setArrival}
                 placeholder="Masukan Lokasi Tujuan"
                 label="Lokasi Tujuan"
                 autoCompleteType={undefined}
                 leftIcon={
-                  <FontAwesome name="plane-arrival" size={20} color="#88b454" />
+                  <FontAwesome name="plane-arrival" size={20} color="#6f00ff" />
                 }
                 leftIconContainerStyle={{
                   padding: 15,
@@ -99,7 +95,7 @@ const Home = ({ navigation }) => {
                 placeholder="Masukan Tanggal Keberangkatan"
                 label="Tanggal Keberangkatan"
                 leftIcon={
-                  <FontAwesome name="calendar-alt" size={20} color="#88b454" />
+                  <FontAwesome name="calendar-alt" size={20} color="#6f00ff" />
                 }
                 leftIconContainerStyle={{
                   padding: 10,
@@ -124,7 +120,7 @@ const Home = ({ navigation }) => {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#88b454",
+    backgroundColor: "#a9a9a9",
     paddingTop: 150,
     width: "100%",
   },

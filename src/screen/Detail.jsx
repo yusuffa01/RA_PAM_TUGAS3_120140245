@@ -32,14 +32,14 @@ const Item = ({ departure, arrival, maskapai_id, date }) => (
   <View style={styles.item}>
     <View style={styles.row}>
       <Text style={styles.col}>{BANDARA[departure].bandara_nama}</Text>
-      <Text style={styles.col}> - </Text>
+      <Text style={styles.col}> === </Text>
       <Text style={styles.col}>{BANDARA[arrival].bandara_nama}</Text>
     </View>
     <View style={styles.row}>
       <FontAwesome
         name="plane"
         size={20}
-        color="#88b454"
+        color="#6f00ff"
         style={{ marginRight: 5 }}
       />
       <Text style={styles.col5}>{MASKAPAI[maskapai_id].maskapai_nama}</Text>

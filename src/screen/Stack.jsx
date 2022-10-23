@@ -15,7 +15,7 @@ const ScreenStack = () => {
         headerTitleAlign: "center",
         headerTintColor: "white",
         headerStyle: {
-          backgroundColor: "#88b454",
+          backgroundColor: "#808000",
         },
       }}
     >
@@ -24,9 +24,9 @@ const ScreenStack = () => {
         component={Home}
         options={{
           title: "HILLING.ID",
-          headerLeft: () => <FontAwesome name="bars" size={24} color="white" />,
+          headerLeft: () => <FontAwesome name="bars" size={25} color="white" />,
           headerRight: () => (
-            <FontAwesome name="user-alt" size={24} color="white" />
+            <FontAwesome name="user-alt" size={25} color="white" />
           ),
         }}
       />
@@ -36,7 +36,7 @@ const ScreenStack = () => {
         options={{
           title: "HILLING.ID",
           headerRight: () => (
-            <FontAwesome name="user-alt" size={24} color="white" />
+            <FontAwesome name="user-alt" size={30} color="00ffff" />
           ),
         }}
       />
