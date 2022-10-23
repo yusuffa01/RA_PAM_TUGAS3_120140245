@@ -1,8 +1,8 @@
 export const MASKAPAI = {
   GRD: {
-    maskapai_id: "GRD",
-    maskapai_nama: "Garuda Airline",
-    maskapai_logo: "../images/garuda.jpg",
+    maskapai_id: "LIO",
+    maskapai_nama: "Lion Air",
+    maskapai_logo: "../images/lion_air.png",
   },
   SJW: {
     maskapai_id: "SJW",
@@ -10,9 +10,9 @@ export const MASKAPAI = {
     maskapai_logo: "../images/Sriwijaya_air.png",
   },
   LIO: {
-    maskapai_id: "LIO",
-    maskapai_nama: "Lion Air",
-    maskapai_logo: "../images/lion_air.png",
+    maskapai_id: "GRD",
+    maskapai_nama: "Garuda Indonesia",
+    maskapai_logo: "../images/garuda.jpg",
   },
   MPA: {
     maskapai_id: "MPA",
